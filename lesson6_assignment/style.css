@@ -12,25 +12,26 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	color: #CCCCCC;
+	padding: 0 40px;
 }
 h1 {
 	font-size: 32px;
-	padding: 3px 0;
+	padding: 0 40px;
 	font-variant: small-caps;
 	line-height: 2em;
+	margin: 0;
 }
 h2 {
 	font-size: 18px;
-	padding: 3px;
+	padding: 0 40px;
 	font-variant: small-caps;
-	background-color: #BF8C00;
 }
 h3 {
 	font-size: 14px;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
 	border-bottom-color: #BF8C00;
-	padding: 3px 0;
+	padding: 0 40px;
 	font-variant: small-caps;
 	font-style: italic;
 }
@@ -85,4 +86,56 @@ img {
 iframe {
 	border: solid #BF8C00 3px;
 	margin: 8px;
+}
+
+/* Div styles for page layout */
+#container
+{
+	width: 900px;
+	margin: 0 auto;
+	background-color:  #333333;
+	overflow: hidden;
+	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#header
+{
+	width: 100%;
+	padding-bottom: 30px;
+	background-color: #222222;
+	border-bottom: 1px solid #BF8C00;
+	
+}
+
+#content
+{
+	width: 500px;
+	float: left;
+	padding-bottom: 30px;
+}
+
+#footer
+{
+	width: 100%;
+	padding-top: 20px;
+	background-color: #222222;
+	border-top: 1px solid #BF8C00;
+	clear: both;
+}
+
+#sidebar
+{
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+#sidebar p{
+	padding: 10px;
+	border: 1px solid #BF8C00;
+	background: #222222;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+	color: white;
 }
