@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document created by Sam Jacobs, Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #333333;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	color: #CCCCCC;
+}
+h1 {
+	font-size: 32px;
+	padding: 3px 0;
+	font-variant: small-caps;
+	line-height: 2em;
+}
+h2 {
+	font-size: 18px;
+	padding: 3px;
+	font-variant: small-caps;
+	background-color: #BF8C00;
+}
+h3 {
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #BF8C00;
+	padding: 3px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #BF8C00;
+}
+a:visited {
+	font-weight: bold;
+	color: #916B00;
+}
+a:hover {
+	color: #BF8C00;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 10px;
+}
+ol {
+	margin-left: 12px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #BF8C00 1px;
+}
+td {
+	padding: 4px;
+	border: solid #BF8C00 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #BF8C00;
+	text-align: center;
+	padding: 4px;
+	border: solid #BF8C00 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #916B00 1px;
+}
+
+img {
+	border: solid #BF8C00 1px;
+
+}
+
+iframe {
+	border: solid #BF8C00 3px;
+	margin: 8px;
+}
