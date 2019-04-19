@@ -1,4 +1,4 @@
-<<!-- Name: Sam Jacobs      Date of Completion: 4/8/19 -->
+<<!-- Name: Sam Jacobs      Date of Completion: 4/19/19 -->
 
 <!DOCTYPE html>
 <html>
@@ -7,6 +7,7 @@
         <meta charset="UTF-8">
         <title> Google's Fiber Networks </title>  <!-- Naming the title of my webpage, which shows up on the tab in teh browser -->
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="style-navbar.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Sam Jacobs">                                     <!-- Creating meta tags -->
         <meta name="description" content="A brief look at the history of Google Fiber and how it compares to other companies.">
@@ -17,7 +18,13 @@
             <div id="header">
                 <img src="images/top.jpg" width="100%">     <!-- Inserting topper image -->
                 <h1>Google's Fiber Networks</h1>  <!-- Reiterating the title of the whole page with the main header -->
-                <p><a href="index.html">Overview</a> | <a href="media.html">Media</a> | <a href="author.html">Author</a></p>     <!-- Menu -->
+                <div id="navbar">
+                    <ul id="menu">
+                        <li><a href="index.html" class="button">Overview</a></li>
+                        <li><a href="media.html" class="button">Media</a></li>
+                        <li><a href="author.html" class="button selected">Author</a></li>
+                    </ul>
+                </div> <!-- end of navbar -->
             </div> <!-- end of header -->
             <div id="content">
                 <h2><em>About the Author</em></h2>     <!-- Header for the author -->
@@ -25,7 +32,7 @@
                    in his LIS 2360: Web Application Development course where he needed to discuss a topic he was interested in.</p>
                 <br>
                 
-                <img src="images/author.jpg" width="300px" height="379px" alt="A picture of the author of this webpage.">     <!-- Inserting author image -->
+                
                 <hr>  <!-- Inserting a horizontal line -->
                
                
@@ -48,6 +55,11 @@
                 </ul>  <!-- End of unstructured list -->
                    
             </div> <!-- end of content -->
+            
+            <div id="sidebar">
+                <img src="images/author.jpg" width="300px" height="379px" alt="A picture of the author of this webpage.">     <!-- Inserting author image -->
+            </div><!-- end of sidebar -->
+            
             <div id="footer">
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>     <!-- Inserting the creative commons license image -->
             <br>
